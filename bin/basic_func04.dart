@@ -1,3 +1,12 @@
 // Create a function called func.
 // Return the value integer type.
-void main() {}
+
+String func(){
+  String a;
+  a='-1, '+' 0, '+' 1';
+  return a;
+}
+void main(){
+  print(func());
+}
+
